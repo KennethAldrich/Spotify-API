@@ -7,13 +7,14 @@ The web app was created to allow users to quickly launch songs available on spot
 Please visit www.humayunahmed.ca for more info
 
 <h2>APP USEAGE</h2>
-<p>"Play song" would launch the webapp on desktop and the Spotify app if on android</p>
+"Play song" would launch the webapp on desktop and the Spotify app if on android
                            
-<p>"Preview song" allows user to listen to 30 seconds of the track within the web app. It also alows user to play the whole track f they like and provides them with simple stat such as popularity of the song.<br/> user can also pause or stop the song by simply saying "stop" or "pause".</p>
+"Preview song" allows user to listen to 30 seconds of the track within the web app. It also alows user to play the whole track f they like and provides them with simple stat such as popularity of the song.
+user can also pause or stop the song by simply saying "stop" or "pause".
                            
-<p>"Show album" lists 5 recent albums by the artist</p>
+"Show album" lists 5 recent albums by the artist
                            
-<p>"Which album" allows the user to find what album a particular song is from.</p>
+"Which album" allows the user to find what album a particular song is from.
 
 
 
