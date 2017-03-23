@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainimg {
+    margin-bottom: 20px;
+}
+h1, h2, p {
+    margin-bottom: 20px;
+}
+h1 {
+    line-height: 1.3em;
+}
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+.button:hover {
+  background: #82BD03;
+}
+.action, .recognized {
+    padding: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    width:70%;
+}
+.action {
+    text-align: right;
+    background-color: #6AE368;
+    margin-left:20%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.recognized {
+    text-align: left;
+    background-color: #eee;
+    font-weight: bold;
+    border-radius: 20px 20px 20px 0;
+}
+.recognized:after {
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 18px;
+    border-style: solid;
+    border-color: transparent transparent #eee transparent;
+    bottom: 0px;
+    left: -17px;
+}
+.recognized > div:before {
+    content: open-quote
+}
+.recognized > div:after {
+    content: close-quote
+}
+#conversation {
+    padding: 20px;
+}
+#conversation::before {
+    content:"";
+    height: 1px;
+    width: 200px;
+    background-color: #6AE368;
+    display: block;
+    margin: 10px auto;
+}
+#conversation img {
+    margin-top: 5px;
+}

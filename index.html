@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+
+    <title>ALSPIFY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/voice_search.css">
+
+    
+  </head>
+
+  <body>
+
+  <main>
+
+    <img class="mainimg" src="/images/Spotify_logo_with_text.png" style="width:250px;">
+ 
+    <h2>Using Spotify API</h2>
+ 
+
+      <div id="commands">
+           <h1>Speak n Play</h1>
+           <p>Remember to allow the use of the microphone</p>
+          
+          <h2>Example of voice commands</h2>
+          <ul>
+              <li>Preview *song name*</li>
+              <li>Preview *song name* by *artist name*</li>
+          </ul>
+          
+          <a>If you would like to play the full song please disable popups and use commands below</a>
+          <ul>
+              <li>Play *song name*</li>
+              <li>Play *song name* by *artist name*</li>
+          </ul>
+          <a>More commands</a>
+          <ul>
+              <li>which album is *song from</li>
+              <li>Which album is *song* by *artist* from</li>
+          </ul>
+      </div>
+      <div id="conversation"></div>
+  </main>
+      
+  <script src="/js/voice_search.js"></script>
+
+  </body>
+</html>
+
