@@ -17,6 +17,8 @@ user can also pause or stop the song by simply saying "stop" or "pause".
 "Which album" allows the user to find what album a particular song is from.
 
 
+<hr/>
+
 
 
 Credit: 
