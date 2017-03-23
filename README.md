@@ -21,5 +21,7 @@ user can also pause or stop the song by simply saying "stop" or "pause".
 
 
 
-Credit: 
-JMPerez
+
+
+<p style="font-size:10px;">Credit:
+JMPerez for providing the bases</p>
