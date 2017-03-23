@@ -17,8 +17,10 @@ user can also pause or stop the song by simply saying "stop" or "pause".
 "Which album" allows the user to find what album a particular song is from.
 
 Required:
-NodeJS
-Annyang library
+<ul>
+<li>NodeJS</li>
+<li>Annyang library</li>
+</ul>
 
 
 
